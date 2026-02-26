@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #000;
+    color: white;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('img/banner.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff6400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.beneficios .grid-beneficios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.producto-detalle {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    gap:10px;
+}
+
+.contacto input{
+    padding: 8px;
+}
+
+footer {
+    background-color: #111;      
+    color: #fff;                 
+    text-align: center;         
+    padding: 20px 10px;           
+    font-size: 14px;             
+    margin-top: auto;             
+    border-top: 3px solid #ff6400;
+}
+
+footer a {
+    color: #ff6400;               
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}

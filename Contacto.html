@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - SuperProducto</title>
+    <link rel="stylesheet" href="Estilos/styles.css">
+</head>
+<body>
+
+<header>
+    <img src="img/logo.png" class="logo" alt="Logo">
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="producto.html">Producto</a>
+        <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+</header>
+
+<section class="contacto">
+    <h1>Contáctanos</h1>
+
+    <form onsubmit="return validarFormulario()" action="gracias.html">
+        <label>Nombre:</label>
+        <input type="text" id="nombre">
+
+        <label>Email:</label>
+        <input type="email" id="email">
+
+        <label>Mensaje:</label>
+        <textarea id="mensaje"></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    © 2024 SuperProducto – Todos los derechos reservados
+</footer>
+<script src="Script/script.js"></script>
+</body>
+</html>
